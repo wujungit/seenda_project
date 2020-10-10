@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="basic-member-service" />
+        <module name="basic-common-service" />
+        <module name="basic-goods-service" />
+        <module name="business-core-service" />
+        <module name="basic-payment-service" />
+        <module name="component-gateway-service" />
+        <module name="basic-user-service" />
+        <module name="component-nacos-service" />
+        <module name="business-api-service" />
+        <module name="component-hystrix-dashboard-service" />
+        <module name="component-feign-service" />
+        <module name="basic-good-service" />
+        <module name="component-eureka-service" />
+        <module name="basic-order-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic-good-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+server:
+  port: 8104
+spring:
+  application:
+    name: basic-goods-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/goods?useUnicode=true&characterEncoding=utf-8&useSSL=true
+      username: root
+      password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.seenda.basic.goods.entity
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

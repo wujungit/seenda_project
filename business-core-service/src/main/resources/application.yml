@@ -1,0 +1,23 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: business-core-service
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8201/eureka
+ribbon:
+  ConnectTimeout: 2000
+  ReadTimeout: 2000
+logging:
+  level:
+    com.seenda.component.feign.service.PaymentFeignService: debug
+feign:
+  hystrix:
+    enabled: true

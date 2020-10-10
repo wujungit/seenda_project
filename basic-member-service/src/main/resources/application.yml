@@ -1,0 +1,33 @@
+server:
+  port: 8103
+spring:
+  application:
+    name: basic-member-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/member?useUnicode=true&characterEncoding=utf-8&useSSL=true
+      username: root
+      password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.seenda.basic.member.entity
+swagger:
+  config:
+    basePackage: com.seenda.basic.member.controller
+    title: Wechat Login API Document.
+    description: Provide wechat login relasted interface.
+    version: 1.0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

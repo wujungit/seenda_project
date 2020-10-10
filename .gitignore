@@ -1,0 +1,14 @@
+# Project exclude paths
+/basic-common-service/target/
+/basic-goods-service/target/
+/basic-member-service/target/
+/basic-order-service/target/
+/basic-payment-service/target/
+/basic-user-service/target/
+/business-api-service/target/
+/business-core-service/target/
+/component-eureka-service/target/
+/component-feign-service/target/
+/component-gateway-service/target/
+/component-hystrix-dashboard-service/target/
+/component-nacos-service/target/

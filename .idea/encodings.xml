@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/basic-common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-goods-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-goods-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-member-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-member-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-payment-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-api-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-api-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-core-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business-core-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-eureka-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-eureka-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-feign-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-feign-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-gateway-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-hystrix-dashboard-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-hystrix-dashboard-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-nacos-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-nacos-service/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

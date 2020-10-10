@@ -1,0 +1,14 @@
+server:
+  port: 8205
+spring:
+  application:
+    name: component-nacos-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+#${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+#component-nacos-service-dev.yml
